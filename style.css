@@ -187,13 +187,12 @@ section #h3-dropbox div h3{
     height: calc(100vw / 3 );
 }
 
-.width-2{
+.width-piccolo{
     width: calc(100% / 2);
 }
 
 .scala-foto{
-    width: 60%;
-    display: block;
+    width: 60%; 
 }
 
 
