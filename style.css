@@ -23,7 +23,7 @@ header {
 }
 
 .debug {
-    border: 1px solid black;
+    border: 1px solid #666;
 }
 
 .barra {
@@ -49,6 +49,10 @@ header nav a {
     margin: auto;
 }
 
+#hero{
+    margin-bottom: 100px;
+}
+
 /*flex*/
 .d-flex {
     display: flex;
@@ -69,6 +73,15 @@ header nav a {
     align-content: flex-start;
 }
 
+.justify.center{
+    justify-content: center;
+}
+
+.flex-wrap{
+    display: flex;
+    flex-wrap: wrap;
+}
+
 /*--*/
 
 /*margini*/
@@ -80,7 +93,7 @@ header nav a {
     margin-bottom: 30px;
 }
 
-.mr-5{
+.mr-5 {
     margin-right: 5px;
 }
 
@@ -105,7 +118,7 @@ header nav a {
 }
 
 #hero {
-    background-color: rgb(86, 173, 245);
+    background-color: rgb(157, 209, 228);
 
 }
 
@@ -115,10 +128,12 @@ header nav a {
     margin: auto;
 }
 
+.border-colonne{
+    border: 1px solid #666;
+}
+
 .colonne {
     width: calc(100% / 3 - 20px);
-    border: 1px solid #666;
-
 }
 
 .colonne-header {
@@ -128,19 +143,76 @@ header nav a {
 
 .colonne-main {
     padding: 10px;
-    ;
-
 }
 
-.br-bottom{
+.br-bottom {
     border: 1px solid #666;
     padding: 10px;
 }
 
 .text-center {
     text-align: center;
-
 }
+
+.padding-generale {
+    padding: 20px;
+}
+
+section #partner{
+    width: 100%;
+}
+
+.font-size{
+    font-size: 30px;
+}
+
+.border-gray{
+    border: 1px solid #666;
+    padding: 10px;
+}
+/* Opeazioni con dropbox*/
+
+.dropbox-foto{
+    max-width: 100%;
+}
+
+section #h3-dropbox div h3{
+    font-size: 28px;
+}
+
+/* MARCHI */
+
+.width-m{
+    width: calc(100% / 3);
+    height: calc(100vw / 3 );
+}
+
+.width-2{
+    width: calc(100% / 2);
+}
+
+.scala-foto{
+    width: 60%;
+    display: block;
+}
+
+
+.designt-b{
+    background-color: rgb(163, 211, 156);
+}
+.topps{
+    background-color: rgb(98, 10, 45);
+}
+
+.florida{
+    background-color: ;
+}
+
+.asu{
+    background-color: ;
+}
+
+
 
 /*footer*/
 footer {
@@ -148,3 +220,4 @@ footer {
     padding: 30px 0;
     color: white;
 }
+
